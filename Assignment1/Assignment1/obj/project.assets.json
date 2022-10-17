@@ -8,24 +8,26 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/danpenny/.nuget/packages/": {}
+    "C:\\Users\\Aravind Lakshmanan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danpenny/Documents/GitHub/MCDA5510_Assignments/Assignment1/Assignment1/Assignment1.csproj",
+      "projectUniqueName": "C:\\Users\\Aravind Lakshmanan\\Documents\\GitHub\\MCDA5510_Assignments\\Assignment1\\Assignment1\\Assignment1.csproj",
       "projectName": "Assignment1",
-      "projectPath": "/Users/danpenny/Documents/GitHub/MCDA5510_Assignments/Assignment1/Assignment1/Assignment1.csproj",
-      "packagesPath": "/Users/danpenny/.nuget/packages/",
-      "outputPath": "/Users/danpenny/Documents/GitHub/MCDA5510_Assignments/Assignment1/Assignment1/obj/",
+      "projectPath": "C:\\Users\\Aravind Lakshmanan\\Documents\\GitHub\\MCDA5510_Assignments\\Assignment1\\Assignment1\\Assignment1.csproj",
+      "packagesPath": "C:\\Users\\Aravind Lakshmanan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aravind Lakshmanan\\Documents\\GitHub\\MCDA5510_Assignments\\Assignment1\\Assignment1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/danpenny/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Aravind Lakshmanan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -49,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

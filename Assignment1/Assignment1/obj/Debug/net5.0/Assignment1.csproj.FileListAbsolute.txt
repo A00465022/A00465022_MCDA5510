@@ -1,0 +1,46 @@
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.exe
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.deps.json
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.runtimeconfig.json
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.runtimeconfig.dev.json
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.dll
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.pdb
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.csproj.AssemblyReference.cache
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.AssemblyInfoInputs.cache
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.AssemblyInfo.cs
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.dll
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\refint\Assignment1.dll
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.pdb
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.genruntimeconfig.cache
+C:\Users\Aravind Lakshmanan\OneDrive - Saint Marys University\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\ref\Assignment1.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.exe
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.deps.json
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.runtimeconfig.json
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.runtimeconfig.dev.json
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Assignment1.pdb
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.csproj.AssemblyReference.cache
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.AssemblyInfoInputs.cache
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.AssemblyInfo.cs
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\refint\Assignment1.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.pdb
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.genruntimeconfig.cache
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\ref\Assignment1.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\CsvHelper.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\obj\Debug\net5.0\Assignment1.csproj.CopyComplete
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\LoggingAdvanced.Console.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
