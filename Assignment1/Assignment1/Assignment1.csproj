@@ -8,4 +8,8 @@
   <ItemGroup>
     <Compile Remove="EmptyClass.cs" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="29.0.0" />
+  </ItemGroup>
 </Project>
