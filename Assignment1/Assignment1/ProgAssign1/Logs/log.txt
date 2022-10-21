@@ -1,0 +1,11 @@
+Program Started @ 10/21/2022 5:30:08 PM
+Started Reading CSV Data @ 10/21/2022 5:30:08 PM
+Valid Records :201075 @ 10/21/2022 5:31:02 PM
+Skipped Records: 81834 @ 10/21/2022 5:31:02 PM
+Missing Fields: 16 @ 10/21/2022 5:31:02 PM
+Finished Reading CSV Data @ 10/21/2022 5:31:02 PM
+Started Writing Data @ 10/21/2022 5:31:02 PM
+Finished Writing Data @ 10/21/2022 5:31:03 PM
+Total Runtime: 00:00:55.4645095 @ 10/21/2022 5:31:03 PM 
+-------END-------
+

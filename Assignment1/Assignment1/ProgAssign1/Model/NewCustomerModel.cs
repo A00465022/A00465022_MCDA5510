@@ -5,10 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment1
+namespace Assignment1.ProgAssign1.Model
 {
     internal class NewCustomerModel
-    { 
+    {
         [Name("First Name")]
         public string firstName { get; set; }
 

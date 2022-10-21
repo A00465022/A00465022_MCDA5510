@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="ProgAssign1\Logs\" />
     <Folder Include="ProgAssign1\Output\" />
   </ItemGroup>
 </Project>

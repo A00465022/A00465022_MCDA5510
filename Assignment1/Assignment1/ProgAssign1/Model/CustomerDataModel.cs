@@ -7,37 +7,37 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment1
+namespace Assignment1.ProgAssign1.Model
 {
     public class CustomerDataModel
     {
-                            
+
         [Name("First Name")]
         public string firstName { get; set; }
-        
-        [Name("Last Name")] 
+
+        [Name("Last Name")]
         public string lastName { get; set; }
-        
-        [Name("Street Number")] 
+
+        [Name("Street Number")]
         public string streetNumber { get; set; }
-        
-        [Name("Street")] 
+
+        [Name("Street")]
         public string street { get; set; }
 
         [Name("City")]
         public string city { get; set; }
 
-        [Name("Province")] 
+        [Name("Province")]
         public string province { get; set; }
-        
-        [Name("Postal Code")] 
+
+        [Name("Postal Code")]
         public string postalCode { get; set; }
 
-        [Name("Country")] 
+        [Name("Country")]
         public string country { get; set; }
-        [Name("Phone Number")] 
+        [Name("Phone Number")]
         public string phoneNumber { get; set; }
-        [Name("email Address")] 
+        [Name("email Address")]
         public string emailAddress { get; set; }
 
 
