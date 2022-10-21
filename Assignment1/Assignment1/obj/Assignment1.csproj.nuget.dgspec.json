@@ -43,6 +43,10 @@
             "CsvHelper": {
               "target": "Package",
               "version": "[29.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
             }
           },
           "imports": [

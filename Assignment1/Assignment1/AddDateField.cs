@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -25,25 +26,34 @@ namespace Assignment1
             }
         }
 
-        List<NewCustomerModel> CSVReaderTrans(List<string> fileList)
+        List<NewCustomerModel> CSVReaderTrans(List<string> fileList, log4net.ILog logger)
         {
             try
             {
                 List<NewCustomerModel> writeRecords = new List<NewCustomerModel>();
                 int validRecords = 0;
                 int badRecords = 0;
+                int missingField = 0;
                 foreach (string file in fileList)
                 {
 
                     string[] splitString = file.Split("\\");
                     string date = splitString[8] + "/" + splitString[9] + "/" + splitString[10];
                     string fileName = splitString[11];
-                    Console.WriteLine("Started Reading {0} from {1}", fileName, date);
+                    logger.InfoFormat("Started Reading {0} from {1}", fileName, date);
+                    var config = new CsvHelper.Configuration.CsvConfiguration(System.Globalization.CultureInfo.InvariantCulture);
 
-                    using (var reader = new StreamReader(fileList[0]))
-                    using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+                    config.MissingFieldFound = (msg) =>
+                    {
+                        missingField++;
+                        logger.Warn(msg);
+                    }; ;
+
+                    using (var reader = new StreamReader(file))
+                    using (var csv = new CsvReader(reader, config))
                     {
                         var records = csv.GetRecords<CustomerDataModel>();
+
                         foreach (var customer in records)
                         {
                             if (customer.firstName != "" && customer.lastName != "" && customer.streetNumber != "" && customer.street != "" && customer.city != "" &&
@@ -73,8 +83,9 @@ namespace Assignment1
                         }
                     }
                 }
-                Console.WriteLine("Valid Records : {0}", validRecords);
-                Console.WriteLine("Skipped Records: {0}", badRecords);
+                logger.InfoFormat("Valid Records : {0}", validRecords);
+                logger.InfoFormat("Skipped Records: {0}", badRecords);
+                logger.InfoFormat("Missing Fields: {0}", missingField);
                 return writeRecords;
             } catch (Exception err)
             {
@@ -83,6 +94,9 @@ namespace Assignment1
         }
         public static void Main(String[] args)
         {
+            log4net.Config.BasicConfigurator.Configure();
+            log4net.ILog log = log4net.LogManager.GetLogger(typeof(AddDateField));
+            Stopwatch stopwatch = new Stopwatch();
             try
             {
                 DirWalker fw = new DirWalker();
@@ -93,13 +107,13 @@ namespace Assignment1
 
                 fileList = fw.walk(@"C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Sample Data\Sample Data\", fileList);
 
-                var writeRecords = dtField.CSVReaderTrans(fileList);
+                var writeRecords = dtField.CSVReaderTrans(fileList, log);
 
                 dtField.CsvWriter(writePath, writeRecords);
             }
             catch (Exception err)
             {
-                Console.WriteLine(err.Message);
+                log.Error(err.Message);
             }
         }
     }
