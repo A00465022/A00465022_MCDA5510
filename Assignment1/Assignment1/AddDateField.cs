@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
-using System.Linq;
 using CsvHelper;
-using Microsoft.VisualBasic;
 
 namespace Assignment1
 {
@@ -96,9 +94,11 @@ namespace Assignment1
         {
             log4net.Config.BasicConfigurator.Configure();
             log4net.ILog log = log4net.LogManager.GetLogger(typeof(AddDateField));
-            Stopwatch stopwatch = new Stopwatch();
+            Stopwatch stopWatch = new Stopwatch();
             try
             {
+                stopWatch.Start();
+
                 DirWalker fw = new DirWalker();
                 AddDateField dtField = new AddDateField();
                 List<string> fileList = new List<string>();
@@ -110,6 +110,9 @@ namespace Assignment1
                 var writeRecords = dtField.CSVReaderTrans(fileList, log);
 
                 dtField.CsvWriter(writePath, writeRecords);
+                stopWatch.Stop();
+                TimeSpan ts = stopWatch.Elapsed;
+                log.InfoFormat("Total Runtime: {0}", ts);
             }
             catch (Exception err)
             {
