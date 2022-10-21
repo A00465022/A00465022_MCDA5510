@@ -1,9 +1,23 @@
 Assignment #1
 -------------------------------------------------------------------
+Project Structure:
 
-The goal of the assignment is to simply combine 3 of these programs into a single
-program that will recursively read a series of data files in CSV format and enter 
-them into a single file.
-
-The program must log the amount of time it takes to read the files in each directory 
-and the time it takes to write the files to a file using the logger.
+Assignment 1
+ |
+ |- Assignment 1
+      |
+      |- ProgAssign1
+            |
+            |- Outputs
+            |- Logs
+            |- Model
+            |- AddDateField.cs
+            |- DirWalker.cs
+            
+Program Working:
+* Create Model similar to schema in CSV
+* Read the CSV Data using CSVHealper library and insert data into the model
+* Check whether row is valid or invalid
+* If valid, increament validRows else increament badRows
+* Write the valid row to csv file appending date column
+* Log Valid rows, Bad rows.
