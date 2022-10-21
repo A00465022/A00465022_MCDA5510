@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Assignment1
+namespace Assignment1.ProgAssign1
 {
-  
+
 
     public class DirWalker
     {
 
-        public List<string> walk(String path, List<string> fileList)
+        public List<string> walk(string path, List<string> fileList)
         {
 
             string[] list = Directory.GetDirectories(path);
@@ -37,11 +37,11 @@ namespace Assignment1
             return fileList;
         }
 
-//        public static void Main(String[] args)
-//        {
-//            DirWalker fw = new DirWalker();
-//           fw.walk(@"/");
-//        }
+        //        public static void Main(String[] args)
+        //        {
+        //            DirWalker fw = new DirWalker();
+        //           fw.walk(@"/");
+        //        }
 
     }
 }

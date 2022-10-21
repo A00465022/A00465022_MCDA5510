@@ -5,7 +5,7 @@ using System.Globalization;
 using System.IO;
 using CsvHelper;
 
-namespace Assignment1
+namespace Assignment1.ProgAssign1
 {
     public class AddDateField
     {
@@ -18,7 +18,8 @@ namespace Assignment1
                 {
                     csv.WriteRecords(resultData);
                 }
-            } catch(Exception err)
+            }
+            catch (Exception err)
             {
                 throw;
             }
@@ -39,7 +40,7 @@ namespace Assignment1
                     string date = splitString[8] + "/" + splitString[9] + "/" + splitString[10];
                     string fileName = splitString[11];
                     logger.InfoFormat("Started Reading {0} from {1}", fileName, date);
-                    var config = new CsvHelper.Configuration.CsvConfiguration(System.Globalization.CultureInfo.InvariantCulture);
+                    var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 
                     config.MissingFieldFound = (msg) =>
                     {
@@ -85,12 +86,13 @@ namespace Assignment1
                 logger.InfoFormat("Skipped Records: {0}", badRecords);
                 logger.InfoFormat("Missing Fields: {0}", missingField);
                 return writeRecords;
-            } catch (Exception err)
+            }
+            catch (Exception err)
             {
                 throw;
             }
         }
-        public static void Main(String[] args)
+        public static void Main(string[] args)
         {
             log4net.Config.BasicConfigurator.Configure();
             log4net.ILog log = log4net.LogManager.GetLogger(typeof(AddDateField));
@@ -103,7 +105,7 @@ namespace Assignment1
                 AddDateField dtField = new AddDateField();
                 List<string> fileList = new List<string>();
 
-                string writePath = @"C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\result.csv";
+                string writePath = @"C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Assignment1\Assignment1\ProgAssign1\Output\result.csv";
 
                 fileList = fw.walk(@"C:\Users\Aravind Lakshmanan\Documents\GitHub\MCDA5510_Assignments\Sample Data\Sample Data\", fileList);
 
